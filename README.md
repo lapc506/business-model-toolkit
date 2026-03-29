@@ -4,10 +4,28 @@ Interactive business model brainstorming — guided dialogue covering the full s
 
 A Claude Code plugin by [Luis Andres Pena Castillo](https://github.com/lapc506).
 
-## Install
+## Install (Claude Code)
 
 ```bash
 claude plugin add lapc506/business-model-toolkit
+```
+
+## Install (OpenCode)
+
+```bash
+npx @lapc506/business-model-toolkit install
+```
+
+### CLI Commands
+
+```bash
+business-model-toolkit install          # Install to ~/.config/opencode/
+business-model-toolkit update           # Refresh managed assets
+business-model-toolkit uninstall        # Remove managed files only
+business-model-toolkit doctor           # Health check
+business-model-toolkit doctor --json    # Machine-readable output
+business-model-toolkit install --dry-run  # Preview changes
+business-model-toolkit install --force    # Overwrite unmanaged conflicts
 ```
 
 ## What's Inside
